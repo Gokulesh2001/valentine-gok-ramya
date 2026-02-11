@@ -42,7 +42,7 @@ export const STORY_DATA: TimelineEvent[] = [
     title: "First Meeting",
     description: "Lara Cafe. The first time seeing you in person. A memory etched forever.",
     icon: "coffee",
-    image: "lara.jpg"
+    image: import.meta.env.BASE_URL + "lara.jpg"
   },
   {
     id: "home-visit",
@@ -50,7 +50,7 @@ export const STORY_DATA: TimelineEvent[] = [
     title: "Meeting the Family",
     description: "My family and I visited your home for the Ponnu Paakura function. Things were getting real.",
     icon: "home",
-    image: "home.jpg"
+    image: import.meta.env.BASE_URL + "home.jpg"
   },
   {
     id: "temple",
@@ -58,6 +58,6 @@ export const STORY_DATA: TimelineEvent[] = [
     title: "Divine Blessings",
     description: "We visited the temple together. Another step closer to forever.",
     icon: "temple",
-    image: "temple.jpg"
+    image: import.meta.env.BASE_URL + "temple.jpg"
   }
 ];
